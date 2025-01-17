@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+nav{
+  font-family: "Inter",sans-serif;
+  background-color: #FFF7ED;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+
+nav>h1{
+  padding-left: 2.1rem;
+  font-weight: 800;
+}
+
+
+.aboutLink{
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 50%;
+  margin-top: 0.3rem;
+
+}
+
+.vansLink{
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+}
+
+.homeBody{
+  font-family: 'Inter';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/home_image.png");
+  background-repeat: round;
+  color: white;
+  height: 500px;
+  padding-left: 26.91px;
+  padding-right: 26.91px;
+}
+
+.homeBody > h1{
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 36px;
+
+}
+
+.homeBody > p{
+  margin-top: 30px;
+  font-weight: 300;
+  font-size:16px;
+  margin-bottom: 51px;
+}
+
+.homeBody > button{
+  font-family: 'Inter';
+  margin-top: 30px;
+  color:white;
+  font-size: 16px;
+  background-color: #FF8C38;
+  width: 494px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.aboutImage{
+  width: 100%;
+  height: 233px;
+}
+
+.aboutBody{
+  background-color: #FFF7ED;
+  font-family: 'Inter';
+  padding: 26px 40px;
+}
+
+.aboutBody > h3{
+  font-size: 32px;
+}
+
+.aboutBody > p{
+  margin-top: 32px;
+  font-size: 16px;
+}
+
+.aboutBody > section{
+  margin-top: 55px;
+  background-color: #FFCC8D;
+  display: flex;
+  flex-direction: column;
+  padding: 37px 32px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.aboutBody > section > span{
+  font-weight: 600;
+}
+
+.aboutBody > section > button{
+  font-family: 'Inter';
+  margin-top: 25px;
+  background-color: #161616;
+  color: white;
+  border-radius: 10px;
+  width: 174px;
+  height: 49px;
+}
+
+
+
+footer{
+  font-family: 'Inter';
+  background-color: #252525;
+  color: #AAAAAA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  font-size: 14px;
+}
